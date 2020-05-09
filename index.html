@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Kalkylator</title>
+    <meta name="Kalkylator - skolarbete" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">
+                You are using an <strong>outdated</strong> browser. Please
+                <a href="#">upgrade your browser</a> to improve your experience.
+            </p>
+        <![endif]-->
+
+    <div class="flexContainer">
+        <h1 class="tracking-in-contract">Let's Calculate!</h1>
+        <h3 class="timerCaption" id="timerCaption"></h3>
+        <div class="calculator">
+            <div class="displayContainer">
+                <textarea rows="2" class="display" disabled></textarea>
+            </div>
+            <div class="buttons">
+                <button class="allClearBtn" id="allClearBtn">AC</button>
+                <button class="entryClearBtn" id="entryClearBtn">Undo</button>
+                <button class="storageBtn" id="storageBtnA">A</button>
+                <button class="storageBtn" id="storageBtnB">B</button>
+                <button class="storageBtn" id="storageBtnC">C</button>
+                <button class="storageBtn" id="storageBtnD">D</button>
+                <button class="storeBtn" id="storeBtn">SAVE</button>
+
+                <button class="math-operator-button" id="divideBtn" data-operator='/'>
+                    ÷
+                </button>
+                <button class="math-operator-button" id="plusButton" data-operator='+'>
+                    +
+                </button>
+                <button class="math-operator-button" id="minusBtn" data-operator='-'>
+                    -
+                </button>
+                <button class="math-operator-button" id="multiBtn" data-operator='*'>
+                    ×
+                </button>
+                <button class="digit" id="oneBtn" value="1">1</button>
+                <button class="digit" id="twoBtn>" value="2">2</button>
+                <button class="digit" id="threeBtn>" value="3">3</button>
+                <button class="digit" id="fourBtn>" value="4">4</button>
+                <button class="digit" id="fiveBtn>" value="5">5</button>
+                <button class="digit" id="sixBtn>" value="6">6</button>
+                <button class="digit" id="sevenBtn>" value="7">7</button>
+                <button class="digit" id="eightBtn>" value="8">8</button>
+                <button class="digit" id="nineBtn>" value="9">9</button>
+                <button class="digit" id="zeroBtn>" value="0">0</button>
+                <button class="operatorButton" id="equalsButton">
+                    =
+                </button>
+
+                <button class="timerBtn" id="timerBtn">timer</button>
+                <button class="timerStopBtn" id="timerBtn">stop timer</button>
+            </div>
+        </div>
+        <p>To save a value to A, B, C or D - tap save then where you want to store it.</p>
+    </div>
+
+    <script type="module" src="main.js" async defer></script>
+</body>
+
+</html>

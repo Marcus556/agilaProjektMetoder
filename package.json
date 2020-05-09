@@ -1,0 +1,18 @@
+{
+  "name": "slutuppgift-agilt",
+  "version": "1.0.0",
+  "description": "Slutuppgift i kursen \"kommunikation och agila projektmetoder\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha --require @babel/register"
+  },
+  "author": "Marcus Nyman",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-transform-modules-commonjs": "^7.9.6",
+    "@babel/register": "^7.9.0",
+    "mocha": "^7.1.2"
+  }
+}
